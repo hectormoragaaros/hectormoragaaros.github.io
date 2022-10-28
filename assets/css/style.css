@@ -765,13 +765,13 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Hobbies
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.hobbies .hobbies-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.hobbies #hobbies-flters {
   padding: 0;
   margin: 0 auto 15px auto;
   list-style: none;
@@ -780,7 +780,7 @@ section .container {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.hobbies #hobbies-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 10px 16px;
@@ -795,16 +795,16 @@ section .container {
   border-radius: 4px;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.hobbies #hobbies-flters li:hover,
+.hobbies #hobbies-flters li.filter-active {
   background: #18d26e;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.hobbies #hobbies-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.hobbies .hobbies-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -812,7 +812,7 @@ section .container {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.portfolio .portfolio-wrap::before {
+.hobbies .hobbies-wrap::before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -825,7 +825,7 @@ section .container {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.hobbies .hobbies-wrap .hobbies-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -841,7 +841,7 @@ section .container {
   align-items: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-info::before {
+.hobbies .hobbies-wrap .hobbies-info::before {
   display: block;
   content: "";
   width: 48px;
@@ -855,7 +855,7 @@ section .container {
   z-index: 9994;
 }
 
-.portfolio .portfolio-wrap .portfolio-info::after {
+.hobbies .hobbies-wrap .hobbies-info::after {
   display: block;
   content: "";
   width: 48px;
@@ -869,13 +869,13 @@ section .container {
   z-index: 9994;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.hobbies .hobbies-wrap .hobbies-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.hobbies .hobbies-wrap .hobbies-info p {
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
@@ -883,12 +883,12 @@ section .container {
   margin: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.hobbies .hobbies-wrap .hobbies-links {
   text-align: center;
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.hobbies .hobbies-wrap .hobbies-links a {
   color: #fff;
   margin: 0 2px;
   font-size: 28px;
@@ -896,11 +896,11 @@ section .container {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.hobbies .hobbies-wrap .hobbies-links a:hover {
   color: #63eda3;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.hobbies .hobbies-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -908,16 +908,16 @@ section .container {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.hobbies .hobbies-wrap:hover .hobbies-info {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info::before {
+.hobbies .hobbies-wrap:hover .hobbies-info::before {
   top: 15px;
   left: 15px;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info::after {
+.hobbies .hobbies-wrap:hover .hobbies-info::after {
   bottom: 15px;
   right: 15px;
 }
